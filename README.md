@@ -103,6 +103,7 @@ which files are being tracked, and which changes have been staged
 files in the staging area (or most recent commit) 
 
 ### 1.7 Repository link
+https://github.com/qdoeswebdev/lab03-exercises
 
 ### 1.8 Comparing approaches
 
