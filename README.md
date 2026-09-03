@@ -91,15 +91,16 @@ In the `git status` from **1.2**, there are no commits and `README.md` is not be
 In this `git status`, `README.md` is being tracked, but changes to the file have not been staged for commit.
 
 ### 1.6 Git command reflections
-
 In one or two sentences each, what does each command do?
 
-- `git init`
-- `git status`
-- `git add`
-- `git commit`
-- `git log`
-- `git diff`
+- `git init` - initializes a Git repository in the current directory
+- `git status` - shows the status of the working tree, including the current branch,
+which files are being tracked, and which changes have been staged
+- `git add` - adds one or more files to the staging area
+- `git commit` - commits all files in the staging area to the current branch
+- `git log` - lists all commits made to the current repository
+- `git diff` - lists all differences between files in the working tree and
+files in the staging area (or most recent commit) 
 
 ### 1.7 Repository link
 
