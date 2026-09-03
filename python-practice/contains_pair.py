@@ -11,3 +11,4 @@ def check(l: list):
 
 print(check([1, 2, 3, 2]))          # should print True
 print(check([5, 2, -10, 44, 90]))   # should print False
+print(check([10, -20, 5, -10, 20])) # should print False

@@ -106,12 +106,17 @@ files in the staging area (or most recent commit)
 https://github.com/qdoeswebdev/lab03-exercises
 
 ### 1.8 Comparing approaches
-
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+  - For each item in the array, check for equality with every other item in the array.
+In other words, check every possible pair and return true if any pair contains matching items.
 - How does the set-based approach check for a duplicate?
+  - Create an empty set and iterate through the array, adding each item to the set if it is not already there
+and returning true if it is. The set will already contain an item only if that item is a duplicate.
 - What is the runtime and memory trade-off of each?
+  - The set-based approach has a much better runtime than the nested-loop approach,
+but the nested-loop approach uses less memory because it does not need a set.
 
 ### 1.9 Pull request merge options
 
