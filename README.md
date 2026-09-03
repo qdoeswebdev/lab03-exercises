@@ -119,9 +119,12 @@ and returning true if it is. The set will already contain an item only if that i
 but the nested-loop approach uses less memory because it does not need a set.
 
 ### 1.9 Pull request merge options
-
 In your own words, what does each GitHub merge option do?
 
 - Create a merge commit
+  - Uses `git merge` to move the changes from one branch to another while preserving commit history
 - Squash and merge
+  - Uses `git merge --squash` to combine all changes from one branch into a single commit before
+moving them to another branch
 - Rebase and merge
+  - Uses `git rebase` to reapply the changes from one branch onto the end of another, rewriting commit history
